@@ -32,7 +32,7 @@
   <!-- project path="abi/cpp" name="platform/abi/cpp" groups="pdk" /> -->
   <!-- project path="art" name="android_art" remote="omnirom" revision="android-6.0" groups="pdk" /> -->
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-6.0" groups="pdk" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs"/>
+  <!-- project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs" /> -->
   <!-- project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" /> -->
   <!-- project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs" /> -->
   <!-- project path="developers/build" name="platform/developers/build" /> -->
@@ -41,8 +41,7 @@
   <!-- project path="developers/samples/android" name="platform/developers/samples/android" /> -->
   <!-- project path="development" name="android_development" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs" /> -->
   <!-- project path="device/common" name="device/common" groups="pdk-cw-fs" /> -->
-  <project path="device/exynos/common" name="android_device_exynos_common" remote="TeamWin" revision="android-6.0" />
-  <!-- project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" /> -->
+  <!-- project path="device/exynos/common" name="android_device_exynos_common" remote="TeamWin" revision="android-6.0" /> -->  <!-- project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" /> -->
   <!-- project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" /> -->
   <!-- project path="device/generic/common" name="device/generic/common" groups="pdk" /> -->
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -58,9 +57,7 @@
   <!-- project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" /> -->
   <!-- project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" /> -->
   <!-- project path="device/sample" name="device/sample" groups="pdk" /> -->
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
-  <!-- project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" /> -->
-  <!-- project path="external/aac" name="platform/external/aac" groups="pdk" /> -->
+  <!-- project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" /> -->  <!-- project path="external/aac" name="platform/external/aac" groups="pdk" /> -->
   <!-- project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" /> -->
