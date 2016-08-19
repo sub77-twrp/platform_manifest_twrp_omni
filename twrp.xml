@@ -11,7 +11,7 @@
     revision="android-6.0"
   />
   <!-- Device -->
-  <remove-project name="lj50036/android_device_qcom_common" />
+  <!-- remove-project name="lj50036/android_device_qcom_common" />-->
   <project 
     name="CaptainThrowback/android_device_qcom_common" 
     path="device/qcom/common"
