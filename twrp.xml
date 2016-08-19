@@ -19,7 +19,7 @@
     revision="android-6.0"
   />
   <!-- Recovery -->
-  <remove-project name="android_bootable_recovery" />
+  <!-- remove-project name="android_bootable_recovery" />-->
   <project 
     name="android_bootable_recovery" 
     path="bootable/recovery"
