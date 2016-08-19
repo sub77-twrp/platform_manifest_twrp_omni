@@ -486,4 +486,9 @@
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-6.0" />
   <!-- project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-6.0" /> -->
 
+  <include name="sub77/twrp.xml" />
+  <include name="sub77/multirom.xml" />
+  <include name="sub77/falcon.xml" />
+  <include name="sub77/tab3.xml" />
+  <include name="sub77/terra.xml" />
 </manifest>
