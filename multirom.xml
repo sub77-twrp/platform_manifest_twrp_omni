@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- MultiROM -->
+  <project 
+    name="multirom" 
+    path="system/extras/multirom"
+    remote="twrp"
+    revision="android-6.0-mrom"
+  />
+  <project 
+    name="libbootimg" 
+    path="system/extras/libbootimg"
+    remote="twrp"
+    revision="master"
+  />
+</manifest>
+

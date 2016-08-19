@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device -->
+  <project
+   name="android_device_terra_terra803"
+   path="device/terra/terra803"
+   remote="twrp"
+   revision="android-6.0"
+  />
+  <!-- Kernel -->
+
+</manifest>

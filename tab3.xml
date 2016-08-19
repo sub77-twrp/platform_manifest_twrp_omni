@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device -->
+  <project
+   name="android_device_samsung_santos103g"
+   path="device/samsung/santos103g"
+   remote="twrp"
+   revision="android-6.0"
+  />
+  <project
+   name="android_device_samsung_santos10lte"
+   path="device/samsung/santos10lte"
+   remote="twrp"
+   revision="android-6.0"
+  />
+  <project
+   name="android_device_samsung_santos10-common"
+   path="device/samsung/santos10-common"
+   remote="twrp"
+   revision="android-6.0"
+  />
+  <!-- Kernel -->
+  <project
+   name="android_kernel_samsung_santos10" 
+   path="kernel/samsung/santos10" 
+   remote="twrp" 
+   revision="twrp" 
+  />
+<!-- Toolchain -->
+  <project
+   path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
+   name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
+   groups="pdk,linux,x86"
+  />
+</manifest>

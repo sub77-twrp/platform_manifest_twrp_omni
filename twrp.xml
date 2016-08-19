@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote name="twrp" fetch="ssh://git@github.com/sub77-twrp" />
+  <!-- Replace -->
+  <remove-project name="android_build" />
+  <project 
+    name="android_build" 
+    path="build"
+    remote="twrp"
+    revision="android-6.0"
+  />
+  <!-- Device -->
+  <remove-project name="lj50036/android_device_qcom_common" />
+  <project 
+    name="CaptainThrowback/android_device_qcom_common" 
+    path="device/qcom/common"
+    remote="github"
+    revision="android-6.0"
+  />
+  <!-- Recovery -->
+  <remove-project name="android_bootable_recovery" />
+  <project 
+    name="android_bootable_recovery" 
+    path="bootable/recovery"
+    remote="twrp"
+    revision="android-6.0-patch"
+  />
+</manifest>
+

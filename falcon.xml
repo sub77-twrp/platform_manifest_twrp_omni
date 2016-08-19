@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device -->
+  <project
+   name="android_device_motorola_falcon"
+   path="device/motorola/falcon"
+   remote="twrp"
+   revision="android-6.0-mrom"
+  />
+  <!-- Kernel -->
+  <project
+   name="android_kernel_motorola_msm8226" 
+   path="kernel/motorola/msm8226" 
+   remote="twrp" 
+   revision="cm13-twrp" 
+  />
+</manifest>
